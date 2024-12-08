@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Login.css';  // Подключаем файл стилей
 
 function SignUp() {
   return (
@@ -9,32 +10,32 @@ function SignUp() {
         <Col md={6}>
           <Card>
             <Card.Header className="text-center">
-              <h3>Sign Up</h3>
+              <h3>Регистрация</h3>
             </Card.Header>
             <Card.Body>
               <Form>
                 <Form.Group controlId="first-name" className="mb-3">
-                  <Form.Label>First Name</Form.Label>
-                  <Form.Control type="text" placeholder="First name" />
+                  <Form.Label>Имя</Form.Label>
+                  <Form.Control type="text" placeholder="Введите имя" />
                 </Form.Group>
                 <Form.Group controlId="last-name" className="mb-3">
-                  <Form.Label>Last Name</Form.Label>
-                  <Form.Control type="text" placeholder="Last name" />
+                  <Form.Label>Фамилия</Form.Label>
+                  <Form.Control type="text" placeholder="Введите фамилию" />
                 </Form.Group>
                 <Form.Group controlId="email" className="mb-3">
-                  <Form.Label>Email Address</Form.Label>
-                  <Form.Control type="email" placeholder="Enter email" />
+                  <Form.Label>Электронная почта</Form.Label>
+                  <Form.Control type="email" placeholder="Введите электронную почту" />
                 </Form.Group>
                 <Form.Group controlId="password" className="mb-3">
-                  <Form.Label>Password</Form.Label>
-                  <Form.Control type="password" placeholder="Enter password" />
+                  <Form.Label>Пароль</Form.Label>
+                  <Form.Control type="password" placeholder="Введите пароль" />
                 </Form.Group>
-                <Button variant="primary" type="submit" className="w-100">Sign Up</Button>
+                <Button variant="primary" type="submit" className="w-100 mb-3 btn-login">Зарегистрироваться</Button>
               </Form>
             </Card.Body>
             <Card.Footer className="text-center">
               <small>
-                Already registered? <a href="#">Sign in</a>
+                Уже зарегистрированы? <a href="#">Войти</a>
               </small>
             </Card.Footer>
           </Card>

@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Login.css';  // Подключаем файл стилей
 
 export default function Login() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({  
     email: "",
     password: "",
   });
