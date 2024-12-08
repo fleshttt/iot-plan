@@ -1,0 +1,59 @@
+/* Login.css */
+
+/* Стили для формы */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .login-card {
+    padding: 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .login-card h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Стили для input */
+  input.bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  input.bg-light.text-warning {
+    color: yellow !important;
+  }
+  
+  /* Стили для кнопок */
+  .btn-login, .btn-tusur {
+    background-color: rgb(60, 56, 141);
+    border-color: rgb(60, 56, 141);
+    color: white;
+  }
+  
+  .btn-login:hover, .btn-tusur:hover {
+    background-color: rgb(50, 46, 118);
+    border-color: rgb(50, 46, 118);
+  }
+  
+  /* Стили для текста и ссылок */
+  .forgot-password {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .forgot-password a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  

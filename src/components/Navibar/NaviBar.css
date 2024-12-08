@@ -1,0 +1,60 @@
+/* Основной стиль для Navbar */
+.custom-navbar {
+    background-color: #fff; /* Черный фон */
+    padding: 1rem 2rem;
+    border-bottom: 0,1px solid #444; /* Тонкая граница снизу */
+  }
+  
+  /* Стиль логотипа */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 40px; /* Высота логотипа */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo-image:hover {
+    transform: scale(1.1); /* Эффект увеличения при наведении */
+  }
+  
+  /* Стиль кнопок */
+  .custom-button {
+    background-color: rgb(50, 46, 118); /* Синий цвет */
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: rgb(50, 46, 118); /* Более темный синий при наведении */
+    transform: scale(1.05); /* Эффект увеличения */
+  }
+  
+  /* Ссылки навигации */
+  .nav-link {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: rgb(50, 46, 118);; /* Синий при наведении */
+  }
+  
+  /* Тоггл (для мобильной версии) */
+  .custom-toggle {
+    background-color: rgb(50, 46, 118);
+    border: none;
+    color: #fff;
+  }
+  
